@@ -8,8 +8,6 @@ var hari = 24 ;
 var total = gaji - (pajak + bpjs + infak) + (trsp * hari)
 
 
-
-
 console.log ("gaji kotor :" + "Rp." + gaji);
 console.log ("=======================");
 console.log("Potongan Pajak 2,5%:" + "Rp." + pajak );
@@ -23,7 +21,8 @@ console.log("Total hari kerja :" + " 24 hari");
 console.log("=======================");
 console.log("Total tunjangan :" + ( trsp  * hari) );
 console.log("=======================");
-console.log("Perhitungan Gaji ;");
+console.log("Perhitungan Gaji :");
 console.log("(Gaji kotor - Potongan) +  Tunjangan");
+console.log("(4500000 - 412500)" + "240000" )
 console.log("=======================");
 console.log("Gaji bersih :" + "Rp." + total)
